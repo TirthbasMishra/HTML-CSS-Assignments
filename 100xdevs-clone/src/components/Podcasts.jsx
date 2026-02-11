@@ -74,19 +74,23 @@ const Podcasts = () => {
               >
                 {/* Thumbnail */}
                 <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 h-48 flex items-center justify-center">
-                  <div className="text-6xl mb-4"></div>
-                  
+                  <div className="text-6xl mb-4">
+
+                    <iframe src="https://www.youtube.com/embed/dRXq81Om2a4?si=6bd3usllvsCYBwx2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                  </div>
+
                   {/* Play Button Overlay */}
-                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  {/* <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center">
                       <Play className="w-8 h-8 text-white fill-white ml-1" />
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Red Play Button Badge */}
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
+                  {/* <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
                     <Play className="w-10 h-10 text-white fill-white ml-1" />
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Title */}
