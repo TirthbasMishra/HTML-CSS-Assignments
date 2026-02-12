@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Builder -->
+    <div class="card">
+      <h2>Form Builder</h2>
+
+      <label>Select Field Type</label>
+      <select id="fieldType">
+        <option value="text">Text Input</option>
+        <option value="checkbox">Checkbox</option>
+        <option value="radio">Radio Button</option>
+      </select>
+
+      <label>Field Label</label>
+      <input type="text" id="fieldLabel" placeholder="Enter field label">
+
+      <button onclick="addField()">Add Field</button>
+    </div>
+
+    <!-- Preview -->
+    <div class="card">
+      <h2>Form Preview</h2>
+      <form id="previewForm"></form>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
