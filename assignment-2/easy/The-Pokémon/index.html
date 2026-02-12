@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Pokémon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🃏 Pokémon Card Viewer</h1>
+
+  <div class="controls">
+    <input type="number" id="count" placeholder="Number of Pokémon" min="1" max="20" />
+
+    <select id="type">
+      <option value="">Select Type</option>
+      <option value="fire">Fire</option>
+      <option value="water">Water</option>
+      <option value="grass">Grass</option>
+      <option value="electric">Electric</option>
+      <option value="psychic">Psychic</option>
+    </select>
+
+    <button onclick="loadPokemons()">Show Cards</button>
+  </div>
+
+  <div id="cards" class="card-container"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
